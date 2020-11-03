@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<items>
+  <item category="Settings/Tabs" name="Ecommerce" systemName="Ecommerce" description="" icon="ShoppingCart" iconColor="None" image="" includeInUrlIndex="False" pageDefaultView="item" fieldForTitle="" title="" inherits="" useCache="False">
+    <fields>
+      <field name="Variants layout" systemName="VariantsLayout" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="buttons">
+        <editor type="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconPosition" value="10" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="115" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="74" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="EncodeValues" value="True" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="Buttons" value="buttons" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_VariantsLayoutButton.svg" />
+            <option name="Dropdown" value="dropdown" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_VariantsLayoutDropdown.svg" />
+          </Static>
+        </options>
+      </field>
+      <field name="Enable variant matrix" systemName="EnableVariantMatrix" description="Product page, cart and drafts" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Mini cart" systemName="MiniCart" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="MiniCart" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="True" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Checkout" systemName="Checkout" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="Checkout" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Receipt logo image" systemName="ReceiptLogoImage" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.FileEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.FileEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.FileEditor" name="Base directory" value="/Images" /><Parameter addin="Dynamicweb.Content.Items.Editors.FileEditor" name="Extensions" value="*.jpg, *.gif, *.png" /><Parameter addin="Dynamicweb.Content.Items.Editors.FileEditor" name="Allow file upload from frontend" value="False" /><Parameter addin="Dynamicweb.Content.Items.Editors.FileEditor" name="Max files to add" value="" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Receipt header background color" systemName="ReceiptHeaderBackgroundColor" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="#FFFFFF">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="1" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Receipt header font color" systemName="ReceiptHeaderFontColor" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="#FFFFFF">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="1" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Sale sticker" systemName="SaleSticker" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="Sticker" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="New sticker" systemName="NewSticker" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="Sticker" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Custom sticker" systemName="CustomSticker" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="Sticker" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Point shop only" systemName="PointShopOnly" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Loyalty points color" systemName="LoyaltyPointsColor" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="#0a98de">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="1" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Impersonation layout" systemName="ImpersonationLayout" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconPosition" value="10" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="115" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="74" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="EncodeValues" value="True" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="Bar" value="bar" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_ImpersonationBar.svg" />
+            <option name="Right lower bar" value="right-lower-bar" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_ImpersonationBottom1.svg" />
+            <option name="Right lower box" value="right-lower-box" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_ImpersonationBottom2.svg" />
+            <option name="Top bar" value="top-bar" icon="Templates/Designs/Rapido/Images/VectorItemTypes/DW_ImpersonationTop.svg" />
+          </Static>
+        </options>
+      </field>
+      <field name="Impersonation background color" systemName="ImpersonationBackgroundColor" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="2" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Impersonation font color" systemName="ImpersonationFontColor" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="2" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide all" systemName="OnlyPreviewForAnonymous" description="Hide price, stock info and add to cart button for anonymous users" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide price" systemName="AnonymousHidePrice" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide add to cart" systemName="AnonymousHideAddToCart" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide stock" systemName="AnonymousHideStock" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide all" systemName="LoggedInHideAll" description="Hide price, stock info and add to cart button for selected users" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide price" systemName="LoggedInHidePrice" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide add to cart" systemName="LoggedInHideAddToCart" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide stock" systemName="LoggedInHideStock" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Allow custom address" systemName="AllowCustomAddress" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Allow address selection" systemName="AllowAddressSelection" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide &quot;Manage address&quot; button " systemName="HideManageAddressButton" description="Customer center &quot;Profile&quot; page" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide &quot;Edit&quot; button" systemName="HideEditButton" description="Customer center Profile page" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Show &quot;Change password&quot; button" systemName="ShowChangePasswordButton" description="Customer center &quot;Profile&quot; page" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+    </fields>
+    <rules>
+      <rule name="" type="Dynamicweb.Content.Items.Activation.ModuleAttachmentRestrictionRule, Dynamicweb" value="Nothing" />
+      <rule name="Enable item type for" type="Dynamicweb.Content.Items.Activation.StructureRestrictionRule, Dynamicweb" value="Nothing" />
+    </rules>
+    <layout>
+      <groups>
+        <group name="Variants/Variant matrix" systemName="Variants" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="VariantsLayout" />
+            <field systemName="EnableVariantMatrix" />
+          </fields>
+        </group>
+        <group name="Mini cart" systemName="MiniCartGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="MiniCart" />
+          </fields>
+        </group>
+        <group name="Checkout" systemName="CheckoutGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="Checkout" />
+          </fields>
+        </group>
+        <group name="Receipt" systemName="Receipt" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="ReceiptLogoImage" />
+            <field systemName="ReceiptHeaderBackgroundColor" />
+            <field systemName="ReceiptHeaderFontColor" />
+          </fields>
+        </group>
+        <group name="Sale sticker" systemName="SaleStickerGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="SaleSticker" />
+          </fields>
+        </group>
+        <group name="New sticker" systemName="NewStickerGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="NewSticker" />
+          </fields>
+        </group>
+        <group name="Custom sticker" systemName="CustomStickerGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="CustomSticker" />
+          </fields>
+        </group>
+        <group name="Loyalty points" systemName="LoyaltyPoints" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="PointShopOnly" />
+            <field systemName="LoyaltyPointsColor" />
+          </fields>
+        </group>
+        <group name="Impersonation" systemName="Impersonation" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="ImpersonationLayout" />
+            <field systemName="ImpersonationBackgroundColor" />
+            <field systemName="ImpersonationFontColor" />
+          </fields>
+        </group>
+        <group name="Anonymous users" systemName="AnonymousUsers" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="OnlyPreviewForAnonymous" />
+            <field systemName="AnonymousHidePrice" />
+            <field systemName="AnonymousHideAddToCart" />
+            <field systemName="AnonymousHideStock" />
+          </fields>
+        </group>
+        <group name="Logged in users" systemName="LoggedInUsers" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="LoggedInHideAll" />
+            <field systemName="LoggedInHidePrice" />
+            <field systemName="LoggedInHideAddToCart" />
+            <field systemName="LoggedInHideStock" />
+          </fields>
+        </group>
+        <group name="Manage users" systemName="ManageUsers" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="AllowCustomAddress" />
+            <field systemName="AllowAddressSelection" />
+          </fields>
+        </group>
+        <group name="General" systemName="General" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="HideManageAddressButton" />
+            <field systemName="HideEditButton" />
+            <field systemName="ShowChangePasswordButton" />
+          </fields>
+        </group>
+      </groups>
+    </layout>
+  </item>
+</items>

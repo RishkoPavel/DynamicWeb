@@ -1,0 +1,83 @@
+{
+  "Name": "Details - Digital warehouse",
+  "SystemName": "Preset_ProductDetailsView_Details_-_Digital_warehouse",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets-Detailsview-digitalwarehouse.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "65",
+        "sysname": "ProductDetailsView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "65"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "ShowAddToCartButton",
+            "value": false
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": true
+          },
+          {
+            "name": "ShowViewButton",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "ShowStockAndShipping",
+            "value": false
+          },
+          {
+            "name": "ShowImage",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": true
+          },
+          {
+            "name": "ShowStaticVariants",
+            "value": false
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "BorderColor",
+            "value": "NeutralColor4"
+          },
+          {
+            "name": "BorderMode",
+            "value": "line"
+          },
+          {
+            "name": "ViewMoreText",
+            "value": "View more"
+          },
+          {
+            "name": "HoverShowBorder",
+            "value": false
+          },
+          {
+            "name": "HoverBorderColor",
+            "value": "transparent"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<items>
+  <item category="Settings/Tabs" name="Product list" systemName="ProductList" description="" icon="PlaylistAdd" iconColor="None" image="" includeInUrlIndex="False" pageDefaultView="item" fieldForTitle="" title="" inherits="" useCache="False">
+    <fields>
+      <field name="Default list view" systemName="DefaultListView" description="Chose a view that is already enabled " type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="ProductItemContainer">
+        <editor type="Dynamicweb.Content.Items.Editors.DropDownListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelWidth" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="EncodeValues" value="True" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="RemoveNothingSelected" value="False" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="List" value="ProductItemContainer" icon="" />
+            <option name="Grid" value="ProductGridItemContainer" icon="" />
+            <option name="Details" value="ProductDetailsItemContainer" icon="" />
+            <option name="Tiles" value="ProductTilesViewContainer" icon="" />
+          </Static>
+        </options>
+      </field>
+      <field name="Enable &quot;List view&quot;" systemName="EnableListView" description="If you change this, start by clearing your browser cache. The view cookie has a lifetime of 24h." type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="True">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Enable &quot;Grid view&quot;" systemName="EnableGridView" description="If you change this, start by clearing your browser cache.&#xA;The view cookie has a lifetime of 24h." type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="True">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Enable &quot;Details view&quot;" systemName="EnableDetailsView" description="If you change this, start by clearing your browser cache.&#xA;The view cookie has a lifetime of 24h." type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="True">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Enable &quot;Tiles view&quot;" systemName="EnableTilesView" description="If you change this, start by clearing your browser cache.&#xA;The view cookie has a lifetime of 24h." type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="True">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Enable sorting" systemName="EnableSorting" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Facets view mode" systemName="FacetsViewMode" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="left">
+        <editor type="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconPosition" value="3" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="185" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="115" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="Left" value="left" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_FacetsLeft.svg" />
+            <option name="Top" value="top" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_FacetsTop.svg" />
+          </Static>
+        </options>
+      </field>
+      <field name="Open facet groups" systemName="OpenFacetGroups" description="Choose how many facet groups that should be open from the start. (From top and down)" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="1000">
+        <editor type="Dynamicweb.Content.Items.Editors.DropDownListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelWidth" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="EncodeValues" value="True" /><Parameter addin="Dynamicweb.Content.Items.Editors.DropDownListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="RemoveNothingSelected" value="True" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="All" value="1000" icon="" />
+            <option name="None" value="0" icon="" />
+            <option name="1" value="1" icon="" />
+            <option name="2" value="2" icon="" />
+            <option name="3" value="3" icon="" />
+            <option name="4" value="4" icon="" />
+            <option name="5" value="5" icon="" />
+            <option name="6" value="6" icon="" />
+            <option name="7" value="7" icon="" />
+            <option name="8" value="8" icon="" />
+            <option name="9" value="9" icon="" />
+            <option name="10" value="10" icon="" />
+          </Static>
+        </options>
+      </field>
+      <field name="Enable Separation Line" systemName="EnableSeparationLine" description="Separation line under header" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="List view" systemName="ListView" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="ProductListView" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="True" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Grid view" systemName="GridView" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="ProductGridView" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="True" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Details view" systemName="DetailsView" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="ProductDetailsView" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="True" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Tiles View" systemName="TilesView" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="ProductTilesView" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="True" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Left side facets" systemName="Facets" description="" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="ProductListFacets" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Hide price" systemName="HidePrice" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Price font design" systemName="PriceFontDesign" description="Font size is only for list and grid view" type="System.String, mscorlib" excludeFromSearch="False">
+        <editor type="Dynamicweb.Content.Items.Editors.ItemTypeEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Item type" value="Font" /><Parameter addin="Dynamicweb.Content.Items.Editors.ItemTypeEditor" name="Enable presets" value="False" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Price background color" systemName="PriceBackgroundColor" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="#FFFFFF">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="1" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Price border color" systemName="PriceBorderColor" description="" type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="#FFFFFF">
+        <editor type="Dynamicweb.Content.Items.Editors.ColorSwatchEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor"><Parameter addin="Dynamicweb.Content.Items.Editors.ColorSwatchEditor" name="EditColorSwatch" value="1" /></Parameters></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Show both prices with/without VAT" systemName="ShowBothPricesWithWithoutVAT" description="" type="System.Boolean, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="False">
+        <editor type="Dynamicweb.Content.Items.Editors.CheckboxEditor, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.CheckboxEditor" /></editorConfuguration>
+        </editor>
+      </field>
+      <field name="Promotion block design" systemName="PromotionBlockDesign" description="Set the description and promotion image in Ecommerce -&gt;  product group edit." type="System.String, mscorlib" excludeFromSearch="False" defaultValueCulture="" defaultValue="Disable">
+        <editor type="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1, Dynamicweb">
+          <editorConfuguration><Parameters addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="LabelPosition" value="0" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconPosition" value="4" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxWidth" value="185" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="IconMaxHeight" value="115" /><Parameter addin="Dynamicweb.Content.Items.Editors.RadioButtonListEditor`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" name="EncodeValues" value="True" /></Parameters></editorConfuguration>
+        </editor>
+        <options sourceType="Static">
+          <Static>
+            <option name="Disable" value="Disable" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_PromBlock_None.svg" />
+            <option name="Only text" value="OnlyText" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_PromBlock_OnlyText.svg" />
+            <option name="Text and image" value="TextAndImage" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_PromBlock_TextImage.svg" />
+            <option name="Banner" value="Banner" icon="/Templates/Designs/Rapido/images/vectoritemtypes/DW_PromBlock_Banner.svg" />
+          </Static>
+        </options>
+      </field>
+    </fields>
+    <rules>
+      <rule name="" type="Dynamicweb.Content.Items.Activation.ModuleAttachmentRestrictionRule, Dynamicweb" value="Nothing" />
+      <rule name="Enable item type for" type="Dynamicweb.Content.Items.Activation.StructureRestrictionRule, Dynamicweb" value="ItemList" />
+    </rules>
+    <layout>
+      <groups>
+        <group name="General" systemName="General" collapsibleState="None" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="DefaultListView" />
+            <field systemName="EnableListView" />
+            <field systemName="EnableGridView" />
+            <field systemName="EnableDetailsView" />
+            <field systemName="EnableTilesView" />
+            <field systemName="EnableSorting" />
+            <field systemName="FacetsViewMode" />
+            <field systemName="OpenFacetGroups" />
+            <field systemName="EnableSeparationLine" />
+          </fields>
+        </group>
+        <group name="List view" systemName="ListViewGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="ListView" />
+          </fields>
+        </group>
+        <group name="Grid view" systemName="GridViewGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="GridView" />
+          </fields>
+        </group>
+        <group name="Details view" systemName="DetailsViewGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="DetailsView" />
+          </fields>
+        </group>
+        <group name="Tiles view" systemName="TilesViewGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="TilesView" />
+          </fields>
+        </group>
+        <group name="Facets" systemName="FacetsGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="Facets" />
+          </fields>
+        </group>
+        <group name="Price design" systemName="PriceDesign" collapsibleState="Collapsed" visibilityField="" visibilityCondition="0" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="HidePrice" />
+            <field systemName="PriceFontDesign" />
+            <field systemName="PriceBackgroundColor" />
+            <field systemName="PriceBorderColor" />
+            <field systemName="ShowBothPricesWithWithoutVAT" />
+          </fields>
+        </group>
+        <group name="Promotion block" systemName="PromotionBlockGroup" collapsibleState="Collapsed" visibilityField="" visibilityCondition="" visibilityConditionValueType="" visibilityConditionValue="">
+          <fields>
+            <field systemName="PromotionBlockDesign" />
+          </fields>
+        </group>
+      </groups>
+    </layout>
+  </item>
+</items>

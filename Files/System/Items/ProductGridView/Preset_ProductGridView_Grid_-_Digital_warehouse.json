@@ -1,0 +1,99 @@
+{
+  "Name": "Grid - Digital warehouse",
+  "SystemName": "Preset_ProductGridView_Grid_-_Digital_warehouse",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets Gridview-3column-digitalwarehouse.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "65",
+        "sysname": "ProductGridView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "65"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "Columns",
+            "value": "4"
+          },
+          {
+            "name": "ShowAddToCartButton",
+            "value": false
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": true
+          },
+          {
+            "name": "ShowViewButton",
+            "value": false
+          },
+          {
+            "name": "ShowStockAndShipping",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": true
+          },
+          {
+            "name": "ShowStaticVariants",
+            "value": false
+          },
+          {
+            "name": "Alignment",
+            "value": "center"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "BorderColor",
+            "value": "#e2e2e2"
+          },
+          {
+            "name": "BorderMode",
+            "value": "line"
+          },
+          {
+            "name": "ViewMoreText",
+            "value": "View more"
+          },
+          {
+            "name": "HoverShowBorder",
+            "value": false
+          },
+          {
+            "name": "HoverBorderColor",
+            "value": "transparent"
+          },
+          {
+            "name": "HoverImageZoom",
+            "value": true
+          },
+          {
+            "name": "HoverAlternatineImage",
+            "value": true
+          },
+          {
+            "name": "StaticVariantsDisplay",
+            "value": "sm"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFileName": "Templates/Designs/Rapido/js/master.js",
+    "inputFiles": [
+      "Templates/Designs/Rapido/js/source/*.js",
+      "!Templates/Designs/Rapido/js/source/DynamicwebMap.js",
+      "!Templates/Designs/Rapido/js/source/ScopingTools.js",
+      "!Templates/Designs/Rapido/js/source/Custom.js"
+    ],
+    "sourceMap": true,
+    "minify": {
+      "enabled": true,
+      "commentMode": "all"
+    }
+  },
+  {
+    "outputFileName": "Templates/Designs/Rapido/js/custom.js",
+    "inputFiles": [
+      "Templates/Designs/Rapido/js/source/Custom.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "commentMode": "all"
+    }
+  }
+]

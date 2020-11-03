@@ -1,0 +1,50 @@
+﻿<WebsiteItemLayouts>
+  <PageItemLayouts>
+    <ItemLayout systemname="ContentPage" template="" />
+    <ItemLayout systemname="DynamicArticle" template="" />
+    <ItemLayout systemname="DynamicArticleListPage" template="" />
+    <ItemLayout systemname="EventArticle" template="" />
+    <ItemLayout systemname="EventList" template="Page.cshtml" />
+    <ItemLayout systemname="Newsletter" template="" />
+    <ItemLayout systemname="Paper" template="" />
+    <ItemLayout systemname="PrintablePapers" template="" />
+  </PageItemLayouts>
+  <ParagraphItemLayouts>
+    <ItemLayout systemname="App" template="" />
+    <ItemLayout systemname="Articles" template="" />
+    <ItemLayout systemname="BreadcrumbParagraph" template="" />
+    <ItemLayout systemname="ButtonComponent" template="" />
+    <ItemLayout systemname="Buttons" template="" />
+    <ItemLayout systemname="CardParagraph" template="" />
+    <ItemLayout systemname="Carousel" template="" />
+    <ItemLayout systemname="CoverSheet" template="" />
+    <ItemLayout systemname="DynamicArticleListParagraph" template="" />
+    <ItemLayout systemname="FooterImage" template="" />
+    <ItemLayout systemname="HeaderImage" template="" />
+    <ItemLayout systemname="ImageParagraph" template="" />
+    <ItemLayout systemname="Maps" template="" />
+    <ItemLayout systemname="NavigationParagraph" template="" />
+    <ItemLayout systemname="NewsletterBanner" template="" />
+    <ItemLayout systemname="NewsletterOneColumn" template="" />
+    <ItemLayout systemname="NewsletterParagraph" template="" />
+    <ItemLayout systemname="NewsletterProductList" template="" />
+    <ItemLayout systemname="NewsletterTwoColumns" template="" />
+    <ItemLayout systemname="Overlay" template="" />
+    <ItemLayout systemname="PageSheet" template="" />
+    <ItemLayout systemname="Paragraph" template="" />
+    <ItemLayout systemname="ParagraphContainer" template="" />
+    <ItemLayout systemname="PlainHeading" template="" />
+    <ItemLayout systemname="ProductDataSheet" template="" />
+    <ItemLayout systemname="ProductListSheet" template="" />
+    <ItemLayout systemname="PromotionProducts" template="" />
+    <ItemLayout systemname="Quote" template="" />
+    <ItemLayout systemname="SearchParagraph" template="" />
+    <ItemLayout systemname="SeparationLine" template="" />
+    <ItemLayout systemname="SimpleMap" template="" />
+    <ItemLayout systemname="StandardParagraphOne" template="" />
+    <ItemLayout systemname="StandardParagraphThree" template="" />
+    <ItemLayout systemname="StandardParagraphTwo" template="" />
+    <ItemLayout systemname="Video" template="" />
+    <ItemLayout systemname="VideoParagraph" template="" />
+  </ParagraphItemLayouts>
+</WebsiteItemLayouts>

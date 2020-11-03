@@ -1,0 +1,91 @@
+{
+  "Name": "Simple list - view button",
+  "SystemName": "Preset_ProductListView_Simple_list_-_view_button",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets-Listview-2.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "65",
+        "sysname": "ProductListView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "65"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "ShowAddToCartButton",
+            "value": false
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": false
+          },
+          {
+            "name": "ShowViewButton",
+            "value": true
+          },
+          {
+            "name": "ShowStockAndShipping",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": false
+          },
+          {
+            "name": "Variants",
+            "value": "none"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "BorderColor",
+            "value": "NeutralColor4"
+          },
+          {
+            "name": "BorderMode",
+            "value": "none"
+          },
+          {
+            "name": "ViewMoreText",
+            "value": "View more"
+          },
+          {
+            "name": "HoverShowBorder",
+            "value": true
+          },
+          {
+            "name": "HoverBorderColor",
+            "value": "NeutralColor3"
+          },
+          {
+            "name": "HoverImageZoom",
+            "value": true
+          },
+          {
+            "name": "HoverAlternatineImage",
+            "value": true
+          },
+          {
+            "name": "StaticVariantsDisplay",
+            "value": "sm"
+          }
+        ]
+      }
+    ]
+  }
+}

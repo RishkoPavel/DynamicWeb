@@ -1,0 +1,87 @@
+{
+  "Name": "Simple list no buttons",
+  "SystemName": "Preset_ProductListView_Simple_list_no_buttons",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets-Listview-Simple.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "65",
+        "sysname": "ProductListView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "65"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "ShowAddToCartButton",
+            "value": false
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": false
+          },
+          {
+            "name": "ShowViewButton",
+            "value": false
+          },
+          {
+            "name": "ShowStockAndShipping",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": false
+          },
+          {
+            "name": "Variants",
+            "value": "none"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "BorderColor",
+            "value": "NeutralColor4"
+          },
+          {
+            "name": "BorderMode",
+            "value": "none"
+          },
+          {
+            "name": "ViewMoreText",
+            "value": "View more"
+          },
+          {
+            "name": "HoverShowBorder",
+            "value": false
+          },
+          {
+            "name": "HoverBorderColor",
+            "value": "transparent"
+          },
+          {
+            "name": "HoverImageZoom",
+            "value": true
+          },
+          {
+            "name": "HoverAlternatineImage",
+            "value": true
+          }
+        ]
+      }
+    ]
+  }
+}

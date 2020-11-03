@@ -1,0 +1,71 @@
+{
+  "Name": "Tiles - 3 columns with static variants",
+  "SystemName": "Preset_ProductTilesView_Tiles_-_3_columns_with_static_variants",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets Gridview-3column-simple.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "",
+        "sysname": "ProductTilesView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": ""
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "Columns",
+            "value": "3"
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": false
+          },
+          {
+            "name": "ShowStaticVariants",
+            "value": true
+          },
+          {
+            "name": "StaticVariantsDisplay",
+            "value": "lg"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "#FFFFFF"
+          },
+          {
+            "name": "BorderColor",
+            "value": "#d3d3d3"
+          },
+          {
+            "name": "BorderMode",
+            "value": "frame-lines"
+          },
+          {
+            "name": "HoverShowShadow",
+            "value": false
+          },
+          {
+            "name": "HoverImageZoom",
+            "value": true
+          },
+          {
+            "name": "HoverAlternativeImage",
+            "value": false
+          }
+        ]
+      }
+    ]
+  }
+}

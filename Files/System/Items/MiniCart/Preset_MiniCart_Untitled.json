@@ -1,0 +1,71 @@
+{
+  "Name": "Untitled",
+  "SystemName": "Preset_MiniCart_Untitled",
+  "Image": "",
+  "ItemData": {
+    "items": [
+      {
+        "id": "137",
+        "sysname": "MiniCart",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "137"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "AddToCartNotificationType",
+            "value": "toggle"
+          },
+          {
+            "name": "ShowPrice",
+            "value": false
+          },
+          {
+            "name": "CounterPosition",
+            "value": "right"
+          },
+          {
+            "name": "CounterDesign",
+            "value": "rounded"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "BrandColor1"
+          },
+          {
+            "name": "FontColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "Layout",
+            "value": "panel"
+          },
+          {
+            "name": "OrderlinesView",
+            "value": "list"
+          },
+          {
+            "name": "AnimationType",
+            "value": "blink"
+          },
+          {
+            "name": "AnimationBackgroundColor",
+            "value": "transparent"
+          },
+          {
+            "name": "AnimationFontColor",
+            "value": "transparent"
+          }
+        ]
+      }
+    ]
+  }
+}

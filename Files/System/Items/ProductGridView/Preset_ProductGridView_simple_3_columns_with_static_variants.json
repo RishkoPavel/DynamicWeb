@@ -1,0 +1,99 @@
+{
+  "Name": "simple 3 columns with static variants",
+  "SystemName": "Preset_ProductGridView_simple_3_columns_with_static_variants",
+  "Image": "/Templates/Designs/Rapido/Images/Presets/Presets Gridview-3column-simple.png",
+  "ItemData": {
+    "items": [
+      {
+        "id": "65",
+        "sysname": "ProductGridView",
+        "fields": [
+          {
+            "name": "Id",
+            "value": "65"
+          },
+          {
+            "name": "Sort",
+            "value": 0
+          },
+          {
+            "name": "ItemInstanceType",
+            "value": ""
+          },
+          {
+            "name": "Columns",
+            "value": "4"
+          },
+          {
+            "name": "ShowAddToCartButton",
+            "value": false
+          },
+          {
+            "name": "ShowAddToDownloadButton",
+            "value": false
+          },
+          {
+            "name": "ShowViewButton",
+            "value": false
+          },
+          {
+            "name": "ShowStockAndShipping",
+            "value": false
+          },
+          {
+            "name": "ShowProductNumber",
+            "value": true
+          },
+          {
+            "name": "HideFavoriteButton",
+            "value": false
+          },
+          {
+            "name": "ShowStaticVariants",
+            "value": true
+          },
+          {
+            "name": "Alignment",
+            "value": "left"
+          },
+          {
+            "name": "BackgroundColor",
+            "value": "NeutralColor5"
+          },
+          {
+            "name": "BorderColor",
+            "value": "#e2e2e2"
+          },
+          {
+            "name": "BorderMode",
+            "value": "around"
+          },
+          {
+            "name": "ViewMoreText",
+            "value": "View more"
+          },
+          {
+            "name": "HoverShowBorder",
+            "value": false
+          },
+          {
+            "name": "HoverBorderColor",
+            "value": "transparent"
+          },
+          {
+            "name": "HoverImageZoom",
+            "value": true
+          },
+          {
+            "name": "HoverAlternatineImage",
+            "value": true
+          },
+          {
+            "name": "StaticVariantsDisplay",
+            "value": "lg"
+          }
+        ]
+      }
+    ]
+  }
+}
