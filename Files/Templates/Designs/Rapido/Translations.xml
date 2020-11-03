@@ -7476,4 +7476,10 @@
   <key name="My order drafts" DefaultValue="My order drafts">
     <translation culture="en-US"><![CDATA[My order drafts]]></translation>
   </key>
+  <key name="Forgot password?" DefaultValue="Forgot password?">
+    <translation culture="en-US"><![CDATA[Forgot password?]]></translation>
+  </key>
+  <key name="Go to cart" DefaultValue="Go to cart">
+    <translation culture="en-US"><![CDATA[Go to cart]]></translation>
+  </key>
 </translations>

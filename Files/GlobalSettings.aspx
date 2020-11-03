@@ -2,18 +2,21 @@
 <Globalsettings>
   <Settings>
     <CommonInformation>
-      <SolutionTitle></SolutionTitle>
+      <SolutionTitle>
+      </SolutionTitle>
       <Partner>Dynamicweb Software A/S</Partner>
       <Email>noreply@dynamicweb.dk</Email>
       <CopyrightMetaInformation>Dynamicweb Software A/S</CopyrightMetaInformation>
-      <SolutionLastReportDate></SolutionLastReportDate>
-      <SolutionFilesize>540496</SolutionFilesize>
-      <SolutionDatabaseSize>316</SolutionDatabaseSize>
-      <SolutionLastFileSizeReportDate>2020-05-20 09:05:31</SolutionLastFileSizeReportDate>
+      <SolutionLastReportDate>
+      </SolutionLastReportDate>
+      <SolutionFilesize>494714</SolutionFilesize>
+      <SolutionDatabaseSize>68</SolutionDatabaseSize>
+      <SolutionLastFileSizeReportDate>2020-11-03 15:11:47</SolutionLastFileSizeReportDate>
       <InstallationCheckSum>974251c97f4f27763c8df8c7769afc89</InstallationCheckSum>
       <InstallationCrmID>c5613b65-ceb7-e611-87b9-00155d30401d</InstallationCrmID>
       <InstallationCrmSolutionName>base9dev.local.dynamicweb.dk</InstallationCrmSolutionName>
-      <InstallationCrmSolutionID></InstallationCrmSolutionID>
+      <InstallationCrmSolutionID>
+      </InstallationCrmSolutionID>
     </CommonInformation>
     <TextEditor>
       <UseProviderBasedEditors>True</UseProviderBasedEditors>
@@ -52,7 +55,8 @@
       <HideStat>False</HideStat>
     </MyPage>
     <PageNotFound>
-      <RedirectTo></RedirectTo>
+      <RedirectTo>
+      </RedirectTo>
     </PageNotFound>
     <DynamicwebLoginUrl>www.dynamicweb.dk</DynamicwebLoginUrl>
     <IE8>
@@ -103,7 +107,7 @@
       <DisableTemplateUpdates>False</DisableTemplateUpdates>
     </Updates>
     <LastSeenVersion>
-      <Version>9.8.11</Version>
+      <Version>9.9.2</Version>
     </LastSeenVersion>
     <Dictionary>
       <HideOldTranslationButton>false</HideOldTranslationButton>
@@ -115,7 +119,8 @@
       </SmartSearch>
     </Ecom>
     <ImageHandler>
-      <CacheHours></CacheHours>
+      <CacheHours>
+      </CacheHours>
     </ImageHandler>
     <ProviderBasedEditor>
       <EcomDescriptionEditorConfigID>1</EcomDescriptionEditorConfigID>
@@ -134,7 +139,8 @@
     <Templates>
       <ThrowExceptionOnOutputError>False</ThrowExceptionOnOutputError>
       <ShowFriendlyErrormessageOnOutputError>False</ShowFriendlyErrormessageOnOutputError>
-      <FriendlyErrormessageOnOutputError></FriendlyErrormessageOnOutputError>
+      <FriendlyErrormessageOnOutputError>
+      </FriendlyErrormessageOnOutputError>
     </Templates>
     <CookieManager>
       <DisableTrackingCookies>False</DisableTrackingCookies>
@@ -145,7 +151,8 @@
       <TrackingCookies>Dynamicweb.VisitDate,Dynamicweb.VisitorID</TrackingCookies>
       <DisableHttpOnlyCookies>False</DisableHttpOnlyCookies>
       <SecureAllCookies>False</SecureAllCookies>
-      <SecureCookies></SecureCookies>
+      <SecureCookies>
+      </SecureCookies>
       <CookieLifetime>365</CookieLifetime>
       <UseDomainAndNotHost>0</UseDomainAndNotHost>
     </CookieManager>
@@ -175,14 +182,17 @@
       <EncryptPassword>False</EncryptPassword>
       <UseExtendedComponent>False</UseExtendedComponent>
       <WithSearchOption>False</WithSearchOption>
-      <SecureFolderName></SecureFolderName>
+      <SecureFolderName>
+      </SecureFolderName>
       <AutoLoginCookie>
-        <ValideForDays></ValideForDays>
+        <ValideForDays>
+        </ValideForDays>
       </AutoLoginCookie>
       <Impersonation>Full</Impersonation>
       <ImpersonationFullExceptPermissions>False</ImpersonationFullExceptPermissions>
       <AutoBuildIndex>False</AutoBuildIndex>
-      <IndexName></IndexName>
+      <IndexName>
+      </IndexName>
     </Users>
     <Extranet>
       <PasswordExpireDays>never</PasswordExpireDays>
@@ -199,7 +209,8 @@
       <DefaultLanguage>2</DefaultLanguage>
     </LanguagePack>
     <Statistics>
-      <RemoteHostVariable></RemoteHostVariable>
+      <RemoteHostVariable>
+      </RemoteHostVariable>
       <DisablePageStatistics>False</DisablePageStatistics>
       <DisableStatistics>False</DisableStatistics>
     </Statistics>
@@ -227,7 +238,8 @@
         <NumberOfVisitsPoints>7</NumberOfVisitsPoints>
         <LastVisit>2</LastVisit>
         <LastVisitPoints>8</LastVisitPoints>
-        <SearchContains></SearchContains>
+        <SearchContains>
+        </SearchContains>
         <SearchContainsPoints>0</SearchContainsPoints>
         <InteractionSubmitForm>9</InteractionSubmitForm>
         <InteractionPlaceOrder>10</InteractionPlaceOrder>
@@ -235,8 +247,10 @@
         <InteractionDownloadFile>7</InteractionDownloadFile>
         <InteractionSearch>6</InteractionSearch>
         <InteractionViewNews>5</InteractionViewNews>
-        <InteractionUnknown></InteractionUnknown>
-        <InteractionAddToCart></InteractionAddToCart>
+        <InteractionUnknown>
+        </InteractionUnknown>
+        <InteractionAddToCart>
+        </InteractionAddToCart>
         <Disable>False</Disable>
       </VisitorEngagement>
       <IgnoreProviders>TDC</IgnoreProviders>
@@ -259,8 +273,10 @@
         <EnableMaxHeight>False</EnableMaxHeight>
         <DefineWhere>Globally</DefineWhere>
         <ImagesFolder>/Billeder/UM</ImagesFolder>
-        <MaxWidth></MaxWidth>
-        <MaxHeight></MaxHeight>
+        <MaxWidth>
+        </MaxWidth>
+        <MaxHeight>
+        </MaxHeight>
       </UploadedImages>
       <UploadedCustomFiles>
         <DefineWhere>OnUser</DefineWhere>
@@ -275,11 +291,16 @@
       </ExtranetPasswordSecurity>
       <UserSmartSearchesCahceRecalculatingInterval>1</UserSmartSearchesCahceRecalculatingInterval>
       <SendDetails>
-        <Subject></Subject>
-        <SenderName></SenderName>
-        <SenderEmail></SenderEmail>
-        <Template></Template>
-        <Template_path></Template_path>
+        <Subject>
+        </Subject>
+        <SenderName>
+        </SenderName>
+        <SenderEmail>
+        </SenderEmail>
+        <Template>
+        </Template>
+        <Template_path>
+        </Template_path>
       </SendDetails>
     </UserManagement>
     <LanguageManagement>
@@ -302,16 +323,22 @@
     <MailServer>
       <Server>smtp.dynamic-systems.lan</Server>
       <DoNotUsePickup>False</DoNotUsePickup>
-      <Port></Port>
-      <Username></Username>
-      <Password></Password>
+      <Port>
+      </Port>
+      <Username>
+      </Username>
+      <Password>
+      </Password>
       <Type>smtp</Type>
       <UseSll>False</UseSll>
     </MailServer>
     <ActiveDirectory>
-      <ADSI-Domain></ADSI-Domain>
-      <UserName></UserName>
-      <Password></Password>
+      <ADSI-Domain>
+      </ADSI-Domain>
+      <UserName>
+      </UserName>
+      <Password>
+      </Password>
     </ActiveDirectory>
     <Database>
       <Password>Enotik228</Password>
@@ -319,17 +346,24 @@
       <UserName>prish</UserName>
       <Database>rapidofull</Database>
       <SQLServer>CRIMSON</SQLServer>
-      <DWWebIP></DWWebIP>
-      <SQLServer2></SQLServer2>
-      <Database2></Database2>
-      <UserName2></UserName2>
-      <Password2></Password2>
+      <DWWebIP>
+      </DWWebIP>
+      <SQLServer2>
+      </SQLServer2>
+      <Database2>
+      </Database2>
+      <UserName2>
+      </UserName2>
+      <Password2>
+      </Password2>
       <IntegratedSecurity>False</IntegratedSecurity>
-      <ConnectionString></ConnectionString>
-      <ConnectionString2></ConnectionString2>
+      <ConnectionString>
+      </ConnectionString>
+      <ConnectionString2>
+      </ConnectionString2>
     </Database>
     <Version>
-      <CurrentVersion>9.8.0.0</CurrentVersion>
+      <CurrentVersion>9.9.0.0</CurrentVersion>
       <PerformedOncePackages>
         <updates.xml>2119,2082,2114,2029,2028,2023,2021</updates.xml>
         <ecom.xml>2029,2028,2027,2025</ecom.xml>
@@ -368,8 +402,10 @@
       <UseCanonicalInEcommerce>True</UseCanonicalInEcommerce>
       <IncludeProductIdInUrlNames>False</IncludeProductIdInUrlNames>
       <UniqueForEachMasterWebsite>False</UniqueForEachMasterWebsite>
-      <Providersa4187e6d3f147449569e124baa60ca2c></Providersa4187e6d3f147449569e124baa60ca2c>
-      <Providers2377be3c2ad9b435ba277a73f0f1ca76></Providers2377be3c2ad9b435ba277a73f0f1ca76>
+      <Providersa4187e6d3f147449569e124baa60ca2c>
+      </Providersa4187e6d3f147449569e124baa60ca2c>
+      <Providers2377be3c2ad9b435ba277a73f0f1ca76>
+      </Providers2377be3c2ad9b435ba277a73f0f1ca76>
     </Url>
     <http>
       <DisableBaseHrefPort>False</DisableBaseHrefPort>
@@ -381,10 +417,12 @@
     </http>
     <Security>
       <FormAntiSpam>True</FormAntiSpam>
-      <FormAntiSpamReportTo></FormAntiSpamReportTo>
+      <FormAntiSpamReportTo>
+      </FormAntiSpamReportTo>
       <AngelLocked>False</AngelLocked>
       <DoNotBanIps>False</DoNotBanIps>
-      <SQLInjectionSkip></SQLInjectionSkip>
+      <SQLInjectionSkip>
+      </SQLInjectionSkip>
       <FormAntiSpamEnableForUserCreate>True</FormAntiSpamEnableForUserCreate>
       <FormAntiSpamDisableExtended>False</FormAntiSpamDisableExtended>
       <Headers>
@@ -392,16 +430,25 @@
         <XContentTypeOptions>False</XContentTypeOptions>
         <XFrameOptions>False</XFrameOptions>
         <StrictTransportSecurity>False</StrictTransportSecurity>
-        <ReferrerPolicy></ReferrerPolicy>
-        <StrictTransportSecurityExpireTime></StrictTransportSecurityExpireTime>
-        <CustomHeaders></CustomHeaders>
+        <ReferrerPolicy>
+        </ReferrerPolicy>
+        <StrictTransportSecurityExpireTime>
+        </StrictTransportSecurityExpireTime>
+        <CustomHeaders>
+        </CustomHeaders>
       </Headers>
-      <FormAntiSpamMinSeconds></FormAntiSpamMinSeconds>
-      <FormAntiSpamMaxIpSubmits></FormAntiSpamMaxIpSubmits>
-      <FormAntiSpamMaxIpSubmitsQuarantine></FormAntiSpamMaxIpSubmitsQuarantine>
-      <BanIpsDays></BanIpsDays>
-      <SQLInjectionIpWhitelist></SQLInjectionIpWhitelist>
-      <SQLInjectionEmailRecipients></SQLInjectionEmailRecipients>
+      <FormAntiSpamMinSeconds>
+      </FormAntiSpamMinSeconds>
+      <FormAntiSpamMaxIpSubmits>
+      </FormAntiSpamMaxIpSubmits>
+      <FormAntiSpamMaxIpSubmitsQuarantine>
+      </FormAntiSpamMaxIpSubmitsQuarantine>
+      <BanIpsDays>
+      </BanIpsDays>
+      <SQLInjectionIpWhitelist>
+      </SQLInjectionIpWhitelist>
+      <SQLInjectionEmailRecipients>
+      </SQLInjectionEmailRecipients>
     </Security>
     <Searching>
       <EntryIndexingDelay>0</EntryIndexingDelay>
@@ -414,12 +461,17 @@
     <dblgnforna>False</dblgnforna>
     <dblgnfornafe>False</dblgnfornafe>
     <Clustering>
-      <LocalMachineName></LocalMachineName>
-      <LocalUrl></LocalUrl>
-      <RemoteMachineName></RemoteMachineName>
-      <RemoteUrl></RemoteUrl>
+      <LocalMachineName>
+      </LocalMachineName>
+      <LocalUrl>
+      </LocalUrl>
+      <RemoteMachineName>
+      </RemoteMachineName>
+      <RemoteUrl>
+      </RemoteUrl>
     </Clustering>
-    <dblgnfornafemsg></dblgnfornafemsg>
+    <dblgnfornafemsg>
+    </dblgnfornafemsg>
     <AddIns>
       <AllowLoad>True</AllowLoad>
     </AddIns>
@@ -435,39 +487,54 @@
     <UseNewNumberGenerator>True</UseNewNumberGenerator>
     <Picture>
       <NoPicture>
-        <Medium></Medium>
+        <Medium>
+        </Medium>
         <Large>/Images/missing_image.jpg</Large>
-        <Small></Small>
+        <Small>
+        </Small>
         <Large_path>/Files/Images/missing_image.jpg</Large_path>
-        <Medium_path></Medium_path>
-        <Small_path></Small_path>
+        <Medium_path>
+        </Medium_path>
+        <Small_path>
+        </Small_path>
       </NoPicture>
       <Autoscale>
         <Medium>
-          <Height></Height>
-          <Width></Width>
+          <Height>
+          </Height>
+          <Width>
+          </Width>
           <Active>False</Active>
         </Medium>
         <Large>
-          <Height></Height>
+          <Height>
+          </Height>
           <Active>False</Active>
-          <Width></Width>
+          <Width>
+          </Width>
         </Large>
         <Small>
           <Active>False</Active>
-          <Width></Width>
-          <Height></Height>
+          <Width>
+          </Width>
+          <Height>
+          </Height>
         </Small>
       </Autoscale>
       <Group>
         <NoPicture>
-          <Small></Small>
-          <Small_path></Small_path>
-          <Large></Large>
-          <Large_path></Large_path>
+          <Small>
+          </Small>
+          <Small_path>
+          </Small_path>
+          <Large>
+          </Large>
+          <Large_path>
+          </Large_path>
         </NoPicture>
       </Group>
-      <ImagePattern></ImagePattern>
+      <ImagePattern>
+      </ImagePattern>
       <DeprecateOldImages>True</DeprecateOldImages>
       <UseImprovedPatterns>True</UseImprovedPatterns>
       <Patterns>
@@ -497,7 +564,8 @@
     </ProductGroup>
     <Product>
       <DontAllowLinksToProductIfNotActive>true</DontAllowLinksToProductIfNotActive>
-      <ProductNotActivePage></ProductNotActivePage>
+      <ProductNotActivePage>
+      </ProductNotActivePage>
       <DontShowProductIfHasNoPrice>False</DontShowProductIfHasNoPrice>
       <DontShowProductIfNotOnStock>False</DontShowProductIfNotOnStock>
       <DontUseDefaultLanguageIsNoProductExists>true</DontUseDefaultLanguageIsNoProductExists>
@@ -519,7 +587,8 @@
     <PageTitle>
       <Fix>PRE</Fix>
       <ShowProductName>False</ShowProductName>
-      <Seperator></Seperator>
+      <Seperator>
+      </Seperator>
       <RemoveOldTitle>False</RemoveOldTitle>
       <ChangeTitle>False</ChangeTitle>
     </PageTitle>
@@ -720,14 +789,16 @@
       <DoNotRenderUserAddressInAddressLoop>True</DoNotRenderUserAddressInAddressLoop>
       <DontUseFixedOrderLineTypeWhenReordered>False</DontUseFixedOrderLineTypeWhenReordered>
       <DoNotDeleteCartsWithZeroOrderlines>True</DoNotDeleteCartsWithZeroOrderlines>
-      <CartSessionExpiration></CartSessionExpiration>
+      <CartSessionExpiration>
+      </CartSessionExpiration>
       <CopyCustomerFieldsToDelivery>True</CopyCustomerFieldsToDelivery>
       <DoNotDeleteOrderLinesWithZeroQuantity>False</DoNotDeleteOrderLinesWithZeroQuantity>
     </Cart>
     <UseNew>True</UseNew>
     <C5>
       <WriteOrderToFile>false</WriteOrderToFile>
-      <OrderFilePath></OrderFilePath>
+      <OrderFilePath>
+      </OrderFilePath>
       <FileExtension>C5</FileExtension>
     </C5>
     <ProductCategories>
@@ -740,7 +811,8 @@
       <CalcProductCountForGroup>true</CalcProductCountForGroup>
       <ApplyStartAndEndLevelToNavigation>False</ApplyStartAndEndLevelToNavigation>
       <UseOnlyCustomNavigationProvider>False</UseOnlyCustomNavigationProvider>
-      <CacheProductsMinute></CacheProductsMinute>
+      <CacheProductsMinute>
+      </CacheProductsMinute>
     </Navigation>
     <RelatedProducts>
       <LimitOfLinksToAppearOnTheList>5</LimitOfLinksToAppearOnTheList>
@@ -751,9 +823,11 @@
     <Price>
       <List>
         <UseCustomColumns>False</UseCustomColumns>
-        <CustomColumns></CustomColumns>
+        <CustomColumns>
+        </CustomColumns>
         <UseCustomOrder>False</UseCustomOrder>
-        <CustomOrder></CustomOrder>
+        <CustomOrder>
+        </CustomOrder>
       </List>
       <AllowNegativeOrderTotalPrice>False</AllowNegativeOrderTotalPrice>
     </Price>
@@ -1311,27 +1385,36 @@
     <HasBeenConverted>True</HasBeenConverted>
     <GoogleFontApiKey>AIzaSyC_AeYoZz8_ia1EqDZUILjLkbqEWmm8a_0</GoogleFontApiKey>
   </ItemTypes>
-  <ctl00_MainContent_MinifyMarkup></ctl00_MainContent_MinifyMarkup>
-  <ctl00_MainContent_DoNotIncludeBaseHref></ctl00_MainContent_DoNotIncludeBaseHref>
-  <ctl00_MainContent_DisableBaseHrefPort></ctl00_MainContent_DisableBaseHrefPort>
-  <ctl00_MainContent_DisablePerformanceComment></ctl00_MainContent_DisablePerformanceComment>
-  <ctl00_MainContent_AddLastModifiedHeader></ctl00_MainContent_AddLastModifiedHeader>
-  <ctl00_MainContent_DeactivateBrowserCache></ctl00_MainContent_DeactivateBrowserCache>
+  <ctl00_MainContent_MinifyMarkup>
+  </ctl00_MainContent_MinifyMarkup>
+  <ctl00_MainContent_DoNotIncludeBaseHref>
+  </ctl00_MainContent_DoNotIncludeBaseHref>
+  <ctl00_MainContent_DisableBaseHrefPort>
+  </ctl00_MainContent_DisableBaseHrefPort>
+  <ctl00_MainContent_DisablePerformanceComment>
+  </ctl00_MainContent_DisablePerformanceComment>
+  <ctl00_MainContent_AddLastModifiedHeader>
+  </ctl00_MainContent_AddLastModifiedHeader>
+  <ctl00_MainContent_DeactivateBrowserCache>
+  </ctl00_MainContent_DeactivateBrowserCache>
   <ctl00_MainContent_>
     <Globalsettings>
       <Ecom>
         <Cart>
-          <AllowDifferentContextDates></AllowDifferentContextDates>
+          <AllowDifferentContextDates>
+          </AllowDifferentContextDates>
         </Cart>
       </Ecom>
     </Globalsettings>
   </ctl00_MainContent_>
-  <ctl00_MainContent_AllowCombineProductsAsFamily></ctl00_MainContent_AllowCombineProductsAsFamily>
+  <ctl00_MainContent_AllowCombineProductsAsFamily>
+  </ctl00_MainContent_AllowCombineProductsAsFamily>
   <ctl00_MainContent_>
     <Globalsettings>
       <Ecom>
         <Indexing>
-          <DoNotStoreDefaultFields></DoNotStoreDefaultFields>
+          <DoNotStoreDefaultFields>
+          </DoNotStoreDefaultFields>
         </Indexing>
       </Ecom>
     </Globalsettings>
@@ -1340,53 +1423,84 @@
     <Globalsettings>
       <Ecom>
         <Indexing>
-          <DoNotAnalyzeDefaultFields></DoNotAnalyzeDefaultFields>
+          <DoNotAnalyzeDefaultFields>
+          </DoNotAnalyzeDefaultFields>
         </Indexing>
       </Ecom>
     </Globalsettings>
   </ctl00_MainContent_>
-  <ctl00_MainContent_ApplyOnliyIfPageIsInPath></ctl00_MainContent_ApplyOnliyIfPageIsInPath>
-  <ctl00_MainContent_CalcProductCountForGroup></ctl00_MainContent_CalcProductCountForGroup>
-  <ctl00_MainContent_ApplyStartAndEndLevelToNavigation></ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
-  <ctl00_MainContent_UseOnlyCustomNavigationProvider></ctl00_MainContent_UseOnlyCustomNavigationProvider>
-  <ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists></ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
-  <ctl00_MainContent_ActivateProductsOnAllLanguageVersions></ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
-  <ctl00_MainContent_DontShowProductIfNotOnStock></ctl00_MainContent_DontShowProductIfNotOnStock>
-  <ctl00_MainContent_DontShowProductIfHasNoPrice></ctl00_MainContent_DontShowProductIfHasNoPrice>
-  <ctl00_MainContent_DontAllowLinksToProductIfNotActive></ctl00_MainContent_DontAllowLinksToProductIfNotActive>
-  <ctl00_MainContent_DontShowVariantIfNotOnStock></ctl00_MainContent_DontShowVariantIfNotOnStock>
-  <ctl00_MainContent_DontShowVariantIfHasNoPrice></ctl00_MainContent_DontShowVariantIfHasNoPrice>
-  <ctl00_MainContent_DontAllowLinksToVariantIfNotActive></ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
-  <ctl00_MainContent_ShowVariantDefault></ctl00_MainContent_ShowVariantDefault>
-  <ctl00_MainContent_CacheProductCollection></ctl00_MainContent_CacheProductCollection>
-  <ctl00_MainContent_UseDeliveryCountryOnShippingFee></ctl00_MainContent_UseDeliveryCountryOnShippingFee>
-  <ctl00_MainContent_UseDeliveryCountryOnPaymentFee></ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
-  <ctl00_MainContent_BulkEditForProductVariant></ctl00_MainContent_BulkEditForProductVariant>
-  <ctl00_MainContent_ShowBackCatalogFields></ctl00_MainContent_ShowBackCatalogFields>
-  <ctl00_MainContent_ConsolidateTaxesForProducts></ctl00_MainContent_ConsolidateTaxesForProducts>
-  <ctl00_MainContent_ConsolidateTaxesForOrder></ctl00_MainContent_ConsolidateTaxesForOrder>
-  <ctl00_MainContent_AllowEditOrderForUsers></ctl00_MainContent_AllowEditOrderForUsers>
-  <ctl00_MainContent_AllowExceedOriginalOrderPrice></ctl00_MainContent_AllowExceedOriginalOrderPrice>
-  <ctl00_MainContent_DisableDeleteButtonForOrders></ctl00_MainContent_DisableDeleteButtonForOrders>
-  <ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers></ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
-  <ctl00_MainContent_DisableCreationNewProductVariant></ctl00_MainContent_DisableCreationNewProductVariant>
-  <ctl00_MainContent_DisableCreationNewGroups></ctl00_MainContent_DisableCreationNewGroups>
-  <ctl00_MainContent_EditGroupId></ctl00_MainContent_EditGroupId>
+  <ctl00_MainContent_ApplyOnliyIfPageIsInPath>
+  </ctl00_MainContent_ApplyOnliyIfPageIsInPath>
+  <ctl00_MainContent_CalcProductCountForGroup>
+  </ctl00_MainContent_CalcProductCountForGroup>
+  <ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
+  </ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
+  <ctl00_MainContent_UseOnlyCustomNavigationProvider>
+  </ctl00_MainContent_UseOnlyCustomNavigationProvider>
+  <ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
+  </ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
+  <ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
+  </ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
+  <ctl00_MainContent_DontShowProductIfNotOnStock>
+  </ctl00_MainContent_DontShowProductIfNotOnStock>
+  <ctl00_MainContent_DontShowProductIfHasNoPrice>
+  </ctl00_MainContent_DontShowProductIfHasNoPrice>
+  <ctl00_MainContent_DontAllowLinksToProductIfNotActive>
+  </ctl00_MainContent_DontAllowLinksToProductIfNotActive>
+  <ctl00_MainContent_DontShowVariantIfNotOnStock>
+  </ctl00_MainContent_DontShowVariantIfNotOnStock>
+  <ctl00_MainContent_DontShowVariantIfHasNoPrice>
+  </ctl00_MainContent_DontShowVariantIfHasNoPrice>
+  <ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
+  </ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
+  <ctl00_MainContent_ShowVariantDefault>
+  </ctl00_MainContent_ShowVariantDefault>
+  <ctl00_MainContent_CacheProductCollection>
+  </ctl00_MainContent_CacheProductCollection>
+  <ctl00_MainContent_UseDeliveryCountryOnShippingFee>
+  </ctl00_MainContent_UseDeliveryCountryOnShippingFee>
+  <ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
+  </ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
+  <ctl00_MainContent_BulkEditForProductVariant>
+  </ctl00_MainContent_BulkEditForProductVariant>
+  <ctl00_MainContent_ShowBackCatalogFields>
+  </ctl00_MainContent_ShowBackCatalogFields>
+  <ctl00_MainContent_ConsolidateTaxesForProducts>
+  </ctl00_MainContent_ConsolidateTaxesForProducts>
+  <ctl00_MainContent_ConsolidateTaxesForOrder>
+  </ctl00_MainContent_ConsolidateTaxesForOrder>
+  <ctl00_MainContent_AllowEditOrderForUsers>
+  </ctl00_MainContent_AllowEditOrderForUsers>
+  <ctl00_MainContent_AllowExceedOriginalOrderPrice>
+  </ctl00_MainContent_AllowExceedOriginalOrderPrice>
+  <ctl00_MainContent_DisableDeleteButtonForOrders>
+  </ctl00_MainContent_DisableDeleteButtonForOrders>
+  <ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
+  </ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
+  <ctl00_MainContent_DisableCreationNewProductVariant>
+  </ctl00_MainContent_DisableCreationNewProductVariant>
+  <ctl00_MainContent_DisableCreationNewGroups>
+  </ctl00_MainContent_DisableCreationNewGroups>
+  <ctl00_MainContent_EditGroupId>
+  </ctl00_MainContent_EditGroupId>
   <ctl00_MainContent_>
     <Globalsettings>
       <Ecom>
         <Cart>
-          <AllowDifferentContextDates></AllowDifferentContextDates>
+          <AllowDifferentContextDates>
+          </AllowDifferentContextDates>
         </Cart>
       </Ecom>
     </Globalsettings>
   </ctl00_MainContent_>
-  <ctl00_MainContent_AllowCombineProductsAsFamily></ctl00_MainContent_AllowCombineProductsAsFamily>
+  <ctl00_MainContent_AllowCombineProductsAsFamily>
+  </ctl00_MainContent_AllowCombineProductsAsFamily>
   <ctl00_MainContent_>
     <Globalsettings>
       <Ecom>
         <Indexing>
-          <DoNotStoreDefaultFields></DoNotStoreDefaultFields>
+          <DoNotStoreDefaultFields>
+          </DoNotStoreDefaultFields>
         </Indexing>
       </Ecom>
     </Globalsettings>
@@ -1395,36 +1509,64 @@
     <Globalsettings>
       <Ecom>
         <Indexing>
-          <DoNotAnalyzeDefaultFields></DoNotAnalyzeDefaultFields>
+          <DoNotAnalyzeDefaultFields>
+          </DoNotAnalyzeDefaultFields>
         </Indexing>
       </Ecom>
     </Globalsettings>
   </ctl00_MainContent_>
-  <ctl00_MainContent_ApplyOnliyIfPageIsInPath></ctl00_MainContent_ApplyOnliyIfPageIsInPath>
-  <ctl00_MainContent_CalcProductCountForGroup></ctl00_MainContent_CalcProductCountForGroup>
-  <ctl00_MainContent_ApplyStartAndEndLevelToNavigation></ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
-  <ctl00_MainContent_UseOnlyCustomNavigationProvider></ctl00_MainContent_UseOnlyCustomNavigationProvider>
-  <ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists></ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
-  <ctl00_MainContent_ActivateProductsOnAllLanguageVersions></ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
-  <ctl00_MainContent_DontShowProductIfNotOnStock></ctl00_MainContent_DontShowProductIfNotOnStock>
-  <ctl00_MainContent_DontShowProductIfHasNoPrice></ctl00_MainContent_DontShowProductIfHasNoPrice>
-  <ctl00_MainContent_DontAllowLinksToProductIfNotActive></ctl00_MainContent_DontAllowLinksToProductIfNotActive>
-  <ctl00_MainContent_DontShowVariantIfNotOnStock></ctl00_MainContent_DontShowVariantIfNotOnStock>
-  <ctl00_MainContent_DontShowVariantIfHasNoPrice></ctl00_MainContent_DontShowVariantIfHasNoPrice>
-  <ctl00_MainContent_DontAllowLinksToVariantIfNotActive></ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
-  <ctl00_MainContent_ShowVariantDefault></ctl00_MainContent_ShowVariantDefault>
-  <ctl00_MainContent_CacheProductCollection></ctl00_MainContent_CacheProductCollection>
-  <ctl00_MainContent_UseDeliveryCountryOnShippingFee></ctl00_MainContent_UseDeliveryCountryOnShippingFee>
-  <ctl00_MainContent_UseDeliveryCountryOnPaymentFee></ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
-  <ctl00_MainContent_BulkEditForProductVariant></ctl00_MainContent_BulkEditForProductVariant>
-  <ctl00_MainContent_ShowBackCatalogFields></ctl00_MainContent_ShowBackCatalogFields>
-  <ctl00_MainContent_ConsolidateTaxesForProducts></ctl00_MainContent_ConsolidateTaxesForProducts>
-  <ctl00_MainContent_ConsolidateTaxesForOrder></ctl00_MainContent_ConsolidateTaxesForOrder>
-  <ctl00_MainContent_AllowEditOrderForUsers></ctl00_MainContent_AllowEditOrderForUsers>
-  <ctl00_MainContent_AllowExceedOriginalOrderPrice></ctl00_MainContent_AllowExceedOriginalOrderPrice>
-  <ctl00_MainContent_DisableDeleteButtonForOrders></ctl00_MainContent_DisableDeleteButtonForOrders>
-  <ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers></ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
-  <ctl00_MainContent_DisableCreationNewProductVariant></ctl00_MainContent_DisableCreationNewProductVariant>
-  <ctl00_MainContent_DisableCreationNewGroups></ctl00_MainContent_DisableCreationNewGroups>
-  <ctl00_MainContent_EditGroupId></ctl00_MainContent_EditGroupId>
+  <ctl00_MainContent_ApplyOnliyIfPageIsInPath>
+  </ctl00_MainContent_ApplyOnliyIfPageIsInPath>
+  <ctl00_MainContent_CalcProductCountForGroup>
+  </ctl00_MainContent_CalcProductCountForGroup>
+  <ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
+  </ctl00_MainContent_ApplyStartAndEndLevelToNavigation>
+  <ctl00_MainContent_UseOnlyCustomNavigationProvider>
+  </ctl00_MainContent_UseOnlyCustomNavigationProvider>
+  <ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
+  </ctl00_MainContent_DontUseDefaultLanguageIsNoProductExists>
+  <ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
+  </ctl00_MainContent_ActivateProductsOnAllLanguageVersions>
+  <ctl00_MainContent_DontShowProductIfNotOnStock>
+  </ctl00_MainContent_DontShowProductIfNotOnStock>
+  <ctl00_MainContent_DontShowProductIfHasNoPrice>
+  </ctl00_MainContent_DontShowProductIfHasNoPrice>
+  <ctl00_MainContent_DontAllowLinksToProductIfNotActive>
+  </ctl00_MainContent_DontAllowLinksToProductIfNotActive>
+  <ctl00_MainContent_DontShowVariantIfNotOnStock>
+  </ctl00_MainContent_DontShowVariantIfNotOnStock>
+  <ctl00_MainContent_DontShowVariantIfHasNoPrice>
+  </ctl00_MainContent_DontShowVariantIfHasNoPrice>
+  <ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
+  </ctl00_MainContent_DontAllowLinksToVariantIfNotActive>
+  <ctl00_MainContent_ShowVariantDefault>
+  </ctl00_MainContent_ShowVariantDefault>
+  <ctl00_MainContent_CacheProductCollection>
+  </ctl00_MainContent_CacheProductCollection>
+  <ctl00_MainContent_UseDeliveryCountryOnShippingFee>
+  </ctl00_MainContent_UseDeliveryCountryOnShippingFee>
+  <ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
+  </ctl00_MainContent_UseDeliveryCountryOnPaymentFee>
+  <ctl00_MainContent_BulkEditForProductVariant>
+  </ctl00_MainContent_BulkEditForProductVariant>
+  <ctl00_MainContent_ShowBackCatalogFields>
+  </ctl00_MainContent_ShowBackCatalogFields>
+  <ctl00_MainContent_ConsolidateTaxesForProducts>
+  </ctl00_MainContent_ConsolidateTaxesForProducts>
+  <ctl00_MainContent_ConsolidateTaxesForOrder>
+  </ctl00_MainContent_ConsolidateTaxesForOrder>
+  <ctl00_MainContent_AllowEditOrderForUsers>
+  </ctl00_MainContent_AllowEditOrderForUsers>
+  <ctl00_MainContent_AllowExceedOriginalOrderPrice>
+  </ctl00_MainContent_AllowExceedOriginalOrderPrice>
+  <ctl00_MainContent_DisableDeleteButtonForOrders>
+  </ctl00_MainContent_DisableDeleteButtonForOrders>
+  <ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
+  </ctl00_MainContent_DisableDeleteGroupsAndProductsBtn4AllUsers>
+  <ctl00_MainContent_DisableCreationNewProductVariant>
+  </ctl00_MainContent_DisableCreationNewProductVariant>
+  <ctl00_MainContent_DisableCreationNewGroups>
+  </ctl00_MainContent_DisableCreationNewGroups>
+  <ctl00_MainContent_EditGroupId>
+  </ctl00_MainContent_EditGroupId>
 </Globalsettings>
