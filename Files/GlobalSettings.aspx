@@ -341,11 +341,11 @@
       </Password>
     </ActiveDirectory>
     <Database>
-      <Password>Enotik228</Password>
+      <Password>Enotik228322</Password>
       <Type>ms_sqlserver</Type>
-      <UserName>prish</UserName>
-      <Database>rapidofull</Database>
-      <SQLServer>CRIMSON</SQLServer>
+      <UserName>DB_A69D8E_prishdynamicweb_admin</UserName>
+      <Database>DB_A69D8E_prishdynamicweb</Database>
+      <SQLServer>SQL5097.site4now.net</SQLServer>
       <DWWebIP>
       </DWWebIP>
       <SQLServer2>
