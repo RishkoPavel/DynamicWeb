@@ -623,8 +623,8 @@
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
-    <Reference Include="ImageGlue, Version=7.5.0.1, Culture=neutral, PublicKeyToken=d78d2cea5dcfdc98, processorArchitecture=MSIL">
-      <HintPath>packages\Dynamicweb.Imaging.Providers.ImageGlueProviders.1.0.5\lib\net472\ImageGlue.dll</HintPath>
+    <Reference Include="ImageGlue, Version=8.0.0.5, Culture=neutral, PublicKeyToken=d78d2cea5dcfdc98, processorArchitecture=MSIL">
+      <HintPath>packages\ImageGlue.8.0.5\lib\net40\ImageGlue.dll</HintPath>
     </Reference>
     <Reference Include="IronPdf, Version=4.4.9.15720, Culture=neutral, PublicKeyToken=94e1c31412563c75, processorArchitecture=MSIL">
       <HintPath>packages\IronPdf.4.4.9\lib\net40\IronPdf.dll</HintPath>
@@ -9685,7 +9685,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeAnalysis.Analyzers.2.9.6\build\Microsoft.CodeAnalysis.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeAnalysis.Analyzers.2.9.6\build\Microsoft.CodeAnalysis.Analyzers.props'))" />
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\ImageGlue.8.0.5\build\ImageGlue.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\ImageGlue.8.0.5\build\ImageGlue.targets'))" />
   </Target>
+  <Import Project="packages\ImageGlue.8.0.5\build\ImageGlue.targets" Condition="Exists('packages\ImageGlue.8.0.5\build\ImageGlue.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
